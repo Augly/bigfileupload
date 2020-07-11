@@ -1,0 +1,38 @@
+{
+  "name": "bigfileupload",
+  "version": "1.1.1",
+  "description": "This is a js breakpoint continuation utility class function that supports starting, pausing, re-uploading, and throwing errors on your own initiative。这是一个js断点续传工具类函数,支持开始,暂停,重新上传,并且可以自已主动抛出错误",
+  "main": "./lib/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "工具",
+    "文件上传",
+    "upload",
+    "breakpoint",
+    "断点续传"
+  ],
+  "author": "qiuyiyang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "lodash": "^4.17.19",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "spark-md5": "^3.0.1"
+  }
+}
