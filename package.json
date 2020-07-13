@@ -1,6 +1,6 @@
 {
   "name": "bigfileupload",
-  "version": "1.1.5",
+  "version": "1.1.4",
   "description": "This is a js breakpoint continuation utility class function that supports starting, pausing, re-uploading, and throwing errors on your own initiative。这是一个js断点续传工具类函数,支持开始,暂停,重新上传,并且可以自已主动抛出错误",
   "main": "./lib/index.js",
   "sideEffects": false,
