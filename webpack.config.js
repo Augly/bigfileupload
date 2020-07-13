@@ -4,7 +4,7 @@
  * @Author       : zero
  * @Date         : 2020-07-11 13:14:22
  * @LastEditors  : zero
- * @LastEditTime : 2020-07-12 03:43:54
+ * @LastEditTime : 2020-07-13 14:18:03
  */ 
  const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
@@ -12,7 +12,7 @@ const webpack = require('webpack')
 module.exports = {
   //文件入口
   entry: {
-    index: './index.js'
+    index: './lib/index.js'
   },
   mode: 'production',
   plugins: [new CleanWebpackPlugin()],
