@@ -4,7 +4,7 @@
  * @Author       : zero
  * @Date         : 2020-07-12 09:33:59
  * @LastEditors  : zero
- * @LastEditTime : 2020-07-12 17:17:46
+ * @LastEditTime : 2020-07-14 11:11:36
 --> 
 ### 安装
 ```
@@ -23,7 +23,7 @@ option:{
       uploadFun: (sliceFile, next,error) => { },
       //为一个函数接收两个参数(fileName,hashName)=>{}，此函数通知服务器端该文件所有切片已上传完毕，可以合并
       noticeFun: (fileName, hashName) => { },
-      //为一个函数接收两个参数(fileName,hashName)=>{}，此函数验证该文件在服务器端已上传切片数量,该函数返回2个值，uploaded和uploadedList为切片hash值组成的数组
+      //为一个函数接收两个参数(fileName,hashName)=>{}，此函数验证该文件在服务器端已上传切片数量,该函数返回2个值，uploaded为布尔值类型，uploadedList为切片hash值组成的数组组成的数组
       verifyFun: (fileName, hashName) => { },
       //为一个函数接收一个参数(progres)=>{}，此函数通知用户已上文件的占比
       progressFun: (progres) => { },
